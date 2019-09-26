@@ -79,7 +79,7 @@ namespace MathQuiz
             timer1.Start();
 
             // Date
-            dateToday.Text = $"{dateTime:MMM dd, yyyy}";
+            dateToday.Text = $"{dateTime:dd MMMM yyyy}";
         }
         
         public Form1()

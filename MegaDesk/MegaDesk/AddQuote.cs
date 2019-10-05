@@ -107,11 +107,11 @@ namespace MegaDesk
             if (firstNameField.Text == string.Empty)
             {
                 MessageBox.Show("Please enter the first name");
-                firstNameField.BackColor = System.Drawing.Color.LightPink;
+                firstNameField.BackColor = Color.LightPink;
             }
             else
             {
-                firstNameField.BackColor = System.Drawing.SystemColors.Window;
+                firstNameField.BackColor = SystemColors.Window;
             }
 
             checkValidEntries();
@@ -121,11 +121,11 @@ namespace MegaDesk
             if (lastNameField.Text == string.Empty)
             {
                 MessageBox.Show("Please enter the last name");
-                lastNameField.BackColor = System.Drawing.Color.LightPink;
+                lastNameField.BackColor = Color.LightPink;
             }
             else
             {
-                lastNameField.BackColor = System.Drawing.SystemColors.Window;
+                lastNameField.BackColor = SystemColors.Window;
             }
 
             checkValidEntries();
@@ -135,11 +135,11 @@ namespace MegaDesk
             if (deskMaterialField.Text == string.Empty)
             {
                 MessageBox.Show("Please select the material");
-                deskMaterialField.BackColor = System.Drawing.Color.LightPink;
+                deskMaterialField.BackColor = Color.LightPink;
             }
             else
             {
-                deskMaterialField.BackColor = System.Drawing.SystemColors.Window;
+                deskMaterialField.BackColor = SystemColors.Window;
             }
 
             checkValidEntries();
@@ -149,11 +149,11 @@ namespace MegaDesk
             if (RushOrderField.Text == string.Empty)
             {
                 MessageBox.Show("Please select a rush option");
-                RushOrderField.BackColor = System.Drawing.Color.LightPink;
+                RushOrderField.BackColor = Color.LightPink;
             }
             else
             {
-                RushOrderField.BackColor = System.Drawing.SystemColors.Window;
+                RushOrderField.BackColor = SystemColors.Window;
             }
 
             checkValidEntries();
@@ -164,13 +164,13 @@ namespace MegaDesk
             if (desk.Width.GetType() == typeof(int)) {
                 if (desk.Width >= Desk.MIN_WIDTH && desk.Width <= Desk.MAX_WIDTH)
                 {
-                    selectWidthField.BackColor = System.Drawing.SystemColors.Window;
+                    selectWidthField.BackColor = SystemColors.Window;
                 }
             }
             else
             {
                 MessageBox.Show("Please select a valid option");
-                selectWidthField.BackColor = System.Drawing.Color.LightPink;
+                selectWidthField.BackColor = Color.LightPink;
             }
 
             checkValidEntries();
@@ -182,13 +182,13 @@ namespace MegaDesk
             {
                 if (desk.Depth >= Desk.MIN_DEPTH && desk.Depth <= Desk.MAX_DEPTH)
                 {
-                    selectDepthField.BackColor = System.Drawing.SystemColors.Window;
+                    selectDepthField.BackColor = SystemColors.Window;
                 }
             }
             else
             {
                 MessageBox.Show("Please select a valid option");
-                selectDepthField.BackColor = System.Drawing.Color.LightPink;
+                selectDepthField.BackColor = Color.LightPink;
             }
 
             checkValidEntries();

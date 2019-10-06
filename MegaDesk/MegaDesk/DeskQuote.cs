@@ -19,10 +19,6 @@ namespace MegaDesk
         private static int materialCost;
         private static int rushCost;
         private static ArrayList quotes;
-/*        private int deliveryDays;
-        private ArrayList productionTime;
-        private ArrayList productionCost;
-        private static ArrayList rushDays;*/
         private Dictionary<int, int> rushSmallDict;
         private Dictionary<int, int> rushMedDict;
         private Dictionary<int, int> rushLargeDict;
@@ -115,7 +111,7 @@ namespace MegaDesk
         public void saveQuote()
         {;
             DeskQuote customerQuote = new DeskQuote();
-            customerQuote.Desk = Desk;
+            customerQuote.Desk = desk;
         }
     }
 }

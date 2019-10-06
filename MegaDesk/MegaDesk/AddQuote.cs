@@ -54,14 +54,20 @@ namespace MegaDesk
 
         private void displayQuoteForm_Click(object sender, EventArgs e)
         {
-            quote.FirstName = firstNameField.Text;
-            quote.LastName = lastNameField.Text;
-            desk.Width = (int)selectWidthField.Value;
-            desk.Depth = (int)selectDepthField.Value;
-            desk.DrawerNum = (int)selectDrawersField.Value;
-            desk.MaterialType = deskMaterialField.SelectedItem.ToString();
-            rush = RushOrderField.SelectedItem.ToString();
-
+            try
+            {
+                quote.FirstName = firstNameField.Text;
+                quote.LastName = lastNameField.Text;
+                desk.Width = (int)selectWidthField.Value;
+                desk.Depth = (int)selectDepthField.Value;
+                desk.DrawerNum = (int)selectDrawersField.Value;
+                desk.MaterialType = deskMaterialField.SelectedItem.ToString();
+                rush = RushOrderField.SelectedItem.ToString();
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Your input wasn't just right.");
+            }
             deskArea = quote.buildDesk(desk.Width, desk.Depth);
             quote.TotalCost = quote.calcCost(deskArea, desk.DrawerNum, desk.MaterialType);
 

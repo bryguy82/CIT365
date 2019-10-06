@@ -32,7 +32,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -42,7 +41,6 @@
             this.theCustomer = new System.Windows.Forms.Label();
             this.theWidth = new System.Windows.Forms.Label();
             this.theDepth = new System.Windows.Forms.Label();
-            this.theHeight = new System.Windows.Forms.Label();
             this.theArea = new System.Windows.Forms.Label();
             this.theDrawers = new System.Windows.Forms.Label();
             this.theMaterial = new System.Windows.Forms.Label();
@@ -87,19 +85,10 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Desk Depth";
             // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(43, 218);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 30);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Desk Height";
-            // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(43, 257);
+            this.label6.Location = new System.Drawing.Point(43, 220);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 30);
             this.label6.TabIndex = 6;
@@ -176,18 +165,10 @@
             this.theDepth.Size = new System.Drawing.Size(141, 30);
             this.theDepth.TabIndex = 14;
             // 
-            // theHeight
-            // 
-            this.theHeight.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.theHeight.Location = new System.Drawing.Point(159, 218);
-            this.theHeight.Name = "theHeight";
-            this.theHeight.Size = new System.Drawing.Size(141, 30);
-            this.theHeight.TabIndex = 15;
-            // 
             // theArea
             // 
             this.theArea.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.theArea.Location = new System.Drawing.Point(159, 257);
+            this.theArea.Location = new System.Drawing.Point(159, 220);
             this.theArea.Name = "theArea";
             this.theArea.Size = new System.Drawing.Size(141, 30);
             this.theArea.TabIndex = 16;
@@ -245,7 +226,6 @@
             this.Controls.Add(this.theCustomer);
             this.Controls.Add(this.theWidth);
             this.Controls.Add(this.theDepth);
-            this.Controls.Add(this.theHeight);
             this.Controls.Add(this.theArea);
             this.Controls.Add(this.theDrawers);
             this.Controls.Add(this.theMaterial);
@@ -256,7 +236,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -276,7 +255,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -286,7 +264,6 @@
         private System.Windows.Forms.Label theCustomer;
         private System.Windows.Forms.Label theWidth;
         private System.Windows.Forms.Label theDepth;
-        private System.Windows.Forms.Label theHeight;
         private System.Windows.Forms.Label theArea;
         private System.Windows.Forms.Label theDrawers;
         private System.Windows.Forms.Label theMaterial;

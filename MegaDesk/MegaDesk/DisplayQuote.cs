@@ -23,7 +23,6 @@ namespace MegaDesk
             theCustomer.Text = $"{deskQuote.FirstName} {deskQuote.LastName}";
             theWidth.Text = desk.Width.ToString();
             theDepth.Text = desk.Depth.ToString();
-            /*            theHeight.Text = desk.Height.ToString();*/
             theArea.Text = (desk.Width * desk.Depth).ToString();
             theDrawers.Text = desk.DrawerNum.ToString();
             theMaterial.Text = desk.MaterialType.ToString();
